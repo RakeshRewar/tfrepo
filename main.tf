@@ -6,9 +6,9 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "tfdemoepsuser30"
+    bucket = "tfb1tr123"
     encrypt = true
-    dynamodb_table = "tflocktbl1"
+    dynamodb_table = "tftable"
     key    = "terraform.tfstate"
     region = "us-west-2"
   }
